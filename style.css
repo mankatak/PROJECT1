@@ -1,0 +1,87 @@
+body{
+    background-image: url(img/background-gf38c3f848_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imag{
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.about-content .left {
+    width: 45%;
+}
+
+.about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-left: 110px;
+}
+
+.about-content .right {
+    width: 45%;
+    margin-right: 100px;
+}
+
+.about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+.about-content .right .text span{
+    color: rgba(255, 137, 3, 0.884);
+}
+
+.about-content .right p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container{
+    margin-top: 50px;
+    background:rgba(255, 137, 3, 0.884);
+    padding: 30px;
+}
+
+.skills{
+    margin: 0 auto;
+}
+
+.home{
+    margin-top: 100px;
+    min-height: 600px;
+}
+
+.home .card .imag1{
+    width: 400px;
+    height: 500px;
+}
